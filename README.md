@@ -3,6 +3,6 @@ my little router
 
 # roadmap
 
-- stylelint
-- jslint
-- documentation
+- [] stylelint
+- [] jslint
+- [] documentation
