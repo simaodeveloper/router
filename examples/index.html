@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a data-router-link href="/">Home</a>
+        </li>
+        <li>
+          <a data-router-link href="/profile">My Profile</a>
+        </li>
+        <li>
+          <a data-router-link href="/contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
-  <nav data-router-navigation>
-    <ul>
-      <li>
-        <a href="Home"></a>
-      </li>
-      <li>
-        <a href="My Profile"></a>
-      </li>
-      <li>
-        <a href="Contact"></a>
-      </li>
-    </ul>
-  </nav>
+    <main id="app" data-router-view></main>
 
-  <main id="app" data-router-view></main>
-
-  <script src="../dist/router.bundle.js"></script>
-</body>
+    <script src="app.js" type="module"></script>
+  </body>
 </html>

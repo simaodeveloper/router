@@ -1,8 +1,9 @@
 module.exports = {
-  input: './src/main.js',
+  input: "./src/index.js",
   output: {
-    file: './build/router.bundle.js',
-    format: 'umd',
-    sourcemap: true
-  }
+    file: "./build/router.bundle.js",
+    name: "router",
+    format: "umd",
+    sourcemap: true,
+  },
 };
